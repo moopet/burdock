@@ -1,5 +1,4 @@
-
-ck
+Burdock
 =========
 
 Burdock is a cheap Python knock-off of [Dandelion](https://github.com/scttnlsn/dandelion).
