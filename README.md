@@ -17,6 +17,7 @@ Why?
 ---
 
 I don't know Ruby much beyond editing my Compass config file.
+
 Burdock is intended to do one specific thing: deploy git repository contents to FTP servers. If you're stuck using FTP for deployment in 2013, things are bad enough to warrant the existence of such a program. It deliberately doesn't include support for anything more, since there are much better ways of deploying code than by FTP.
 
 Config
@@ -41,6 +42,7 @@ Burdock is almost completely compatible with Dandelion. In fact, I'm so lazy tha
     - .gitignore
 
 Here, `scheme` is optional and ignored because Burdock only does FTP.
+
 I see no use case for anything else. If I've got shell access to a host, I'm going to deploy it properly anyway.
 
 Use case
@@ -85,8 +87,11 @@ FAQ
 ---
 
   Q: Is it robust?
+
   A: Does the Pope shit in the woods? No. It's early days and I haven't even really tested it yet.
+
   Q: Will it work on Windows?
+
   A: I don't care. And neither should you.
 
     
